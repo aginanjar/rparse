@@ -12,9 +12,9 @@ $ npm i rparse --save
 Usage:
 ```js
 // Load the full build.
-var _ = require('rparse');
+var rParse = require('rparse');
 // Call the main method and pass the filepath
-rparse(function(data){
+rParse(function(data){
     console.log(data)
 })
 ```
