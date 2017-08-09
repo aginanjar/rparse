@@ -1,0 +1,36 @@
+{
+  "name": "rparse",
+  "version": "1.0.0",
+  "description": "Simple resume parser that can read multiple file formats and extract information including email, mobile,skills and titles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishmshiva/rparse.git"
+  },
+  "keywords": [
+    "resume",
+    "parsing",
+    "resume",
+    "parsing",
+    "resume",
+    "parser",
+    "resume",
+    "extractor"
+  ],
+  "author": "Manish Shivanandhan <manishshivanandhan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishmshiva/rparse/issues"
+  },
+  "homepage": "https://github.com/manishmshiva/rparse#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "textract": "^2.1.2"
+  }
+}
